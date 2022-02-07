@@ -24,3 +24,26 @@ ul {
 }
 
 /* ----- SECTION BACKGROUND ----- */
+
+.background {
+    background-color: var(--second-color);
+    height: 300px;
+}
+h1 {
+    position: relative;
+    left: 45%;
+    top: 30%;
+}
+
+/* ----- SECTION MENU ----- */
+
+.menu_box {
+    height: 80px;
+    background: rgba(119, 10, 10, 0.178);
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+    
+}
