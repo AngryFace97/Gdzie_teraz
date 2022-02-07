@@ -1,0 +1,26 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --main-color: #212121;
+    --second-color: rgb(79, 0, 168);
+}
+.body {
+    font-family: var(--main-font);
+    color: var(--main-color);
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* ----- SECTION BACKGROUND ----- */
